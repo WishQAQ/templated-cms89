@@ -1,0 +1,28 @@
+
+<div class="top">
+  <div class="w1000">
+    <div class="fengge_20"></div>
+    <div class="logo fl"> <a href="/"><img src="/skin/images/logo12.png"/></a> </div>
+    <div class="web-dh fr">
+      <div class="search fr">
+        <form name="formsearch" action="/plus/search.php" method="post">
+          <input name="q" type="text" id="key" class="soola_textbox" value="请输入搜索关键字" onFocus="this.value='';" onBlur="if(''==this.value){this.value='请输入搜索关键字'}">
+          <input type="submit" class="soola_inputButton" name="Submit" value="搜 索">
+        </form>
+      </div>
+      <div class="clear"></div>
+      <div class="fengge_15"></div>
+      <div class="nav">
+        <ul>
+          <li ><a href="/" class="wbdha"  >网站首页</a></li>
+          {dede:channel row="10" type="top" col="1" currentstyle="
+          <li class='active'><a href='~typelink~' ~rel~>~typename~</a></li>
+          " }
+          <li><a href="[field:typeurl/]" class="wbdha">[field:typename/]</a></li>
+          {/dede:channel}
+        </ul>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
